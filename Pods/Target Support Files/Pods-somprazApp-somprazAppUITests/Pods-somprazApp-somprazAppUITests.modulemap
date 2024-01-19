@@ -1,0 +1,6 @@
+framework module Pods_somprazApp_somprazAppUITests {
+  umbrella header "Pods-somprazApp-somprazAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

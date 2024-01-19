@@ -1,0 +1,6 @@
+framework module Pods_somprazApp {
+  umbrella header "Pods-somprazApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,901 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		770490802AD5D8F20065034E /* iOSDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7704907F2AD5D8F20065034E /* iOSDropDown.framework */; };
+		7727A2E52AE66A74004C8153 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7727A2E42AE66A74004C8153 /* AlertViewController.swift */; };
+		77294F382B1DE2AA00A3E0AE /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77294F372B1DE2AA00A3E0AE /* CategoryModel.swift */; };
+		7757BDB52B4338C000781A89 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7757BDB42B4338C000781A89 /* GoogleService-Info.plist */; };
+		779F43192AD52A18000310EB /* SomprazVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779F43182AD52A18000310EB /* SomprazVC.swift */; };
+		779F431D2AD53645000310EB /* CategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779F431C2AD53645000310EB /* CategoryVC.swift */; };
+		77A5770D2ADEA5CB00F04135 /* DoctorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A5770C2ADEA5CB00F04135 /* DoctorModel.swift */; };
+		77A5770F2ADFAC5800F04135 /* LeaderBoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A5770E2ADFAC5800F04135 /* LeaderBoardVC.swift */; };
+		77A577112ADFC75300F04135 /* DoctorTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A577102ADFC75300F04135 /* DoctorTVC.swift */; };
+		77A577132ADFDE9800F04135 /* SelectDoctorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A577122ADFDE9800F04135 /* SelectDoctorModel.swift */; };
+		77AE4AD32AD69F180057E316 /* QuesAnsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AE4AD22AD69F180057E316 /* QuesAnsVC.swift */; };
+		77B0FC322B22F0A700C024CC /* ActiveCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B0FC312B22F0A700C024CC /* ActiveCategoryVC.swift */; };
+		77B5EA442AD3D218005D215F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B5EA432AD3D218005D215F /* AppDelegate.swift */; };
+		77B5EA462AD3D218005D215F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B5EA452AD3D218005D215F /* SceneDelegate.swift */; };
+		77B5EA482AD3D218005D215F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B5EA472AD3D218005D215F /* LoginVC.swift */; };
+		77B5EA4B2AD3D218005D215F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B5EA492AD3D218005D215F /* Main.storyboard */; };
+		77B5EA4D2AD3D219005D215F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77B5EA4C2AD3D219005D215F /* Assets.xcassets */; };
+		77B5EA502AD3D219005D215F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B5EA4E2AD3D219005D215F /* LaunchScreen.storyboard */; };
+		77B5EA5B2AD3D219005D215F /* somprazAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B5EA5A2AD3D219005D215F /* somprazAppTests.swift */; };
+		77B5EA652AD3D219005D215F /* somprazAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B5EA642AD3D219005D215F /* somprazAppUITests.swift */; };
+		77B5EA672AD3D219005D215F /* somprazAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B5EA662AD3D219005D215F /* somprazAppUITestsLaunchTests.swift */; };
+		77B5EA742AD3F135005D215F /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B5EA732AD3F135005D215F /* CustomTextField.swift */; };
+		77B5EA762AD403BD005D215F /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B5EA752AD403BD005D215F /* HomeVC.swift */; };
+		77BB49632ADC664800CCD73A /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB49622ADC664800CCD73A /* QuizModel.swift */; };
+		77BB49652ADC668B00CCD73A /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BB49642ADC668B00CCD73A /* ServiceLayer.swift */; };
+		77BF4F622B316DA600E5C2F4 /* PopUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BF4F612B316DA600E5C2F4 /* PopUpVC.swift */; };
+		77BF4F642B319D1800E5C2F4 /* submitPWModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BF4F632B319D1800E5C2F4 /* submitPWModel.swift */; };
+		77CE38B42AEBC6B2001DA89C /* LeaderBoardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CE38B32AEBC6B2001DA89C /* LeaderBoardModel.swift */; };
+		77D963392B1603E000FD54CF /* QuesOptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D963382B1603E000FD54CF /* QuesOptionVC.swift */; };
+		77E5D3512B187B6B0071CFF2 /* SelectMRModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E5D3502B187B6B0071CFF2 /* SelectMRModel.swift */; };
+		77E5D3532B18A7300071CFF2 /* AddDocModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E5D3522B18A7300071CFF2 /* AddDocModel.swift */; };
+		77E9A92A2B1A5579006AC954 /* SubmitDocMRIdModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E9A9292B1A5579006AC954 /* SubmitDocMRIdModel.swift */; };
+		A073C2BCB812FD69491C0BAF /* Pods_somprazAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D8EAC80763C7F8B5593EA9F /* Pods_somprazAppTests.framework */; };
+		C0626D8D703AF7F4D0CD55AF /* Pods_somprazApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF7D11F1BA402A212414A2B6 /* Pods_somprazApp.framework */; };
+		C0AE0FC52B1F8FB200C2825A /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AE0FC42B1F8FB200C2825A /* UserDefaults+Extension.swift */; };
+		C0AE0FC72B1FEEFD00C2825A /* NetworkStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AE0FC62B1FEEFD00C2825A /* NetworkStatus.swift */; };
+		C0AE0FC92B2234FB00C2825A /* CategoriesWithQuestions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AE0FC82B2234FB00C2825A /* CategoriesWithQuestions.swift */; };
+		E859CEC1EB9671C5FC2AD8FA /* Pods_somprazApp_somprazAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84EE749573F12A5E99C7221B /* Pods_somprazApp_somprazAppUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77B5EA572AD3D219005D215F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77B5EA382AD3D218005D215F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77B5EA3F2AD3D218005D215F;
+			remoteInfo = somprazApp;
+		};
+		77B5EA612AD3D219005D215F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77B5EA382AD3D218005D215F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77B5EA3F2AD3D218005D215F;
+			remoteInfo = somprazApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		239E0A7888ABE9FFB1BE573E /* Pods-somprazAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-somprazAppTests.release.xcconfig"; path = "Target Support Files/Pods-somprazAppTests/Pods-somprazAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		7704907F2AD5D8F20065034E /* iOSDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7727A2E42AE66A74004C8153 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		77294F372B1DE2AA00A3E0AE /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		7757BDB42B4338C000781A89 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		779F43182AD52A18000310EB /* SomprazVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomprazVC.swift; sourceTree = "<group>"; };
+		779F431C2AD53645000310EB /* CategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryVC.swift; sourceTree = "<group>"; };
+		77A5770C2ADEA5CB00F04135 /* DoctorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorModel.swift; sourceTree = "<group>"; };
+		77A5770E2ADFAC5800F04135 /* LeaderBoardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardVC.swift; sourceTree = "<group>"; };
+		77A577102ADFC75300F04135 /* DoctorTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorTVC.swift; sourceTree = "<group>"; };
+		77A577122ADFDE9800F04135 /* SelectDoctorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDoctorModel.swift; sourceTree = "<group>"; };
+		77AE4AD22AD69F180057E316 /* QuesAnsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuesAnsVC.swift; sourceTree = "<group>"; };
+		77B0FC312B22F0A700C024CC /* ActiveCategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveCategoryVC.swift; sourceTree = "<group>"; };
+		77B5EA402AD3D218005D215F /* somprazApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = somprazApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77B5EA432AD3D218005D215F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77B5EA452AD3D218005D215F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		77B5EA472AD3D218005D215F /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		77B5EA4A2AD3D218005D215F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77B5EA4C2AD3D219005D215F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77B5EA4F2AD3D219005D215F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77B5EA512AD3D219005D215F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77B5EA562AD3D219005D215F /* somprazAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = somprazAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77B5EA5A2AD3D219005D215F /* somprazAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = somprazAppTests.swift; sourceTree = "<group>"; };
+		77B5EA602AD3D219005D215F /* somprazAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = somprazAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77B5EA642AD3D219005D215F /* somprazAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = somprazAppUITests.swift; sourceTree = "<group>"; };
+		77B5EA662AD3D219005D215F /* somprazAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = somprazAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		77B5EA732AD3F135005D215F /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		77B5EA752AD403BD005D215F /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		77BB49622ADC664800CCD73A /* QuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
+		77BB49642ADC668B00CCD73A /* ServiceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLayer.swift; sourceTree = "<group>"; };
+		77BF4F612B316DA600E5C2F4 /* PopUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpVC.swift; sourceTree = "<group>"; };
+		77BF4F632B319D1800E5C2F4 /* submitPWModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = submitPWModel.swift; sourceTree = "<group>"; };
+		77CE38B32AEBC6B2001DA89C /* LeaderBoardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardModel.swift; sourceTree = "<group>"; };
+		77D963382B1603E000FD54CF /* QuesOptionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuesOptionVC.swift; sourceTree = "<group>"; };
+		77E5D3502B187B6B0071CFF2 /* SelectMRModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMRModel.swift; sourceTree = "<group>"; };
+		77E5D3522B18A7300071CFF2 /* AddDocModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDocModel.swift; sourceTree = "<group>"; };
+		77E9A9292B1A5579006AC954 /* SubmitDocMRIdModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitDocMRIdModel.swift; sourceTree = "<group>"; };
+		7D8EAC80763C7F8B5593EA9F /* Pods_somprazAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_somprazAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81DAC3F6EE19B5E99D3E8827 /* Pods-somprazApp-somprazAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-somprazApp-somprazAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-somprazApp-somprazAppUITests/Pods-somprazApp-somprazAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		82FFFF30FFB829B7D7292E73 /* Pods-somprazAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-somprazAppTests.debug.xcconfig"; path = "Target Support Files/Pods-somprazAppTests/Pods-somprazAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		84EE749573F12A5E99C7221B /* Pods_somprazApp_somprazAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_somprazApp_somprazAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		952B41D320ABD59DA0071E9A /* Pods-somprazApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-somprazApp.debug.xcconfig"; path = "Target Support Files/Pods-somprazApp/Pods-somprazApp.debug.xcconfig"; sourceTree = "<group>"; };
+		AF7D11F1BA402A212414A2B6 /* Pods_somprazApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_somprazApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B611785D6B3B5F0391B1AE30 /* Pods-somprazApp-somprazAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-somprazApp-somprazAppUITests.release.xcconfig"; path = "Target Support Files/Pods-somprazApp-somprazAppUITests/Pods-somprazApp-somprazAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C0AE0FC42B1F8FB200C2825A /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
+		C0AE0FC62B1FEEFD00C2825A /* NetworkStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkStatus.swift; sourceTree = "<group>"; };
+		C0AE0FC82B2234FB00C2825A /* CategoriesWithQuestions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesWithQuestions.swift; sourceTree = "<group>"; };
+		F7C09902A57EB8C1D1368235 /* Pods-somprazApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-somprazApp.release.xcconfig"; path = "Target Support Files/Pods-somprazApp/Pods-somprazApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77B5EA3D2AD3D218005D215F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				770490802AD5D8F20065034E /* iOSDropDown.framework in Frameworks */,
+				C0626D8D703AF7F4D0CD55AF /* Pods_somprazApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77B5EA532AD3D219005D215F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A073C2BCB812FD69491C0BAF /* Pods_somprazAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77B5EA5D2AD3D219005D215F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E859CEC1EB9671C5FC2AD8FA /* Pods_somprazApp_somprazAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02F100B3165BBA6902AA9E66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7704907F2AD5D8F20065034E /* iOSDropDown.framework */,
+				AF7D11F1BA402A212414A2B6 /* Pods_somprazApp.framework */,
+				84EE749573F12A5E99C7221B /* Pods_somprazApp_somprazAppUITests.framework */,
+				7D8EAC80763C7F8B5593EA9F /* Pods_somprazAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77B5EA372AD3D218005D215F = {
+			isa = PBXGroup;
+			children = (
+				77B5EA422AD3D218005D215F /* somprazApp */,
+				77B5EA592AD3D219005D215F /* somprazAppTests */,
+				77B5EA632AD3D219005D215F /* somprazAppUITests */,
+				77B5EA412AD3D218005D215F /* Products */,
+				84BFFBBAFCED309D86CDAE33 /* Pods */,
+				02F100B3165BBA6902AA9E66 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		77B5EA412AD3D218005D215F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77B5EA402AD3D218005D215F /* somprazApp.app */,
+				77B5EA562AD3D219005D215F /* somprazAppTests.xctest */,
+				77B5EA602AD3D219005D215F /* somprazAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77B5EA422AD3D218005D215F /* somprazApp */ = {
+			isa = PBXGroup;
+			children = (
+				77B5EA432AD3D218005D215F /* AppDelegate.swift */,
+				77B5EA452AD3D218005D215F /* SceneDelegate.swift */,
+				77B5EA732AD3F135005D215F /* CustomTextField.swift */,
+				77B5EA492AD3D218005D215F /* Main.storyboard */,
+				77B5EA472AD3D218005D215F /* LoginVC.swift */,
+				77BF4F612B316DA600E5C2F4 /* PopUpVC.swift */,
+				77BF4F632B319D1800E5C2F4 /* submitPWModel.swift */,
+				77B5EA752AD403BD005D215F /* HomeVC.swift */,
+				779F43182AD52A18000310EB /* SomprazVC.swift */,
+				77D963382B1603E000FD54CF /* QuesOptionVC.swift */,
+				77B0FC312B22F0A700C024CC /* ActiveCategoryVC.swift */,
+				779F431C2AD53645000310EB /* CategoryVC.swift */,
+				77AE4AD22AD69F180057E316 /* QuesAnsVC.swift */,
+				77A5770E2ADFAC5800F04135 /* LeaderBoardVC.swift */,
+				77A577102ADFC75300F04135 /* DoctorTVC.swift */,
+				7727A2E42AE66A74004C8153 /* AlertViewController.swift */,
+				77CE38B32AEBC6B2001DA89C /* LeaderBoardModel.swift */,
+				77A577122ADFDE9800F04135 /* SelectDoctorModel.swift */,
+				77A5770C2ADEA5CB00F04135 /* DoctorModel.swift */,
+				77294F372B1DE2AA00A3E0AE /* CategoryModel.swift */,
+				77E9A9292B1A5579006AC954 /* SubmitDocMRIdModel.swift */,
+				77E5D3522B18A7300071CFF2 /* AddDocModel.swift */,
+				77E5D3502B187B6B0071CFF2 /* SelectMRModel.swift */,
+				C0AE0FC82B2234FB00C2825A /* CategoriesWithQuestions.swift */,
+				77BB49622ADC664800CCD73A /* QuizModel.swift */,
+				77BB49642ADC668B00CCD73A /* ServiceLayer.swift */,
+				77B5EA4C2AD3D219005D215F /* Assets.xcassets */,
+				77B5EA4E2AD3D219005D215F /* LaunchScreen.storyboard */,
+				77B5EA512AD3D219005D215F /* Info.plist */,
+				C0AE0FC42B1F8FB200C2825A /* UserDefaults+Extension.swift */,
+				7757BDB42B4338C000781A89 /* GoogleService-Info.plist */,
+				C0AE0FC62B1FEEFD00C2825A /* NetworkStatus.swift */,
+			);
+			path = somprazApp;
+			sourceTree = "<group>";
+		};
+		77B5EA592AD3D219005D215F /* somprazAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				77B5EA5A2AD3D219005D215F /* somprazAppTests.swift */,
+			);
+			path = somprazAppTests;
+			sourceTree = "<group>";
+		};
+		77B5EA632AD3D219005D215F /* somprazAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				77B5EA642AD3D219005D215F /* somprazAppUITests.swift */,
+				77B5EA662AD3D219005D215F /* somprazAppUITestsLaunchTests.swift */,
+			);
+			path = somprazAppUITests;
+			sourceTree = "<group>";
+		};
+		84BFFBBAFCED309D86CDAE33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				952B41D320ABD59DA0071E9A /* Pods-somprazApp.debug.xcconfig */,
+				F7C09902A57EB8C1D1368235 /* Pods-somprazApp.release.xcconfig */,
+				81DAC3F6EE19B5E99D3E8827 /* Pods-somprazApp-somprazAppUITests.debug.xcconfig */,
+				B611785D6B3B5F0391B1AE30 /* Pods-somprazApp-somprazAppUITests.release.xcconfig */,
+				82FFFF30FFB829B7D7292E73 /* Pods-somprazAppTests.debug.xcconfig */,
+				239E0A7888ABE9FFB1BE573E /* Pods-somprazAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77B5EA3F2AD3D218005D215F /* somprazApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77B5EA6A2AD3D219005D215F /* Build configuration list for PBXNativeTarget "somprazApp" */;
+			buildPhases = (
+				326B3BEB7EDB47C083047D2D /* [CP] Check Pods Manifest.lock */,
+				77B5EA3C2AD3D218005D215F /* Sources */,
+				77B5EA3D2AD3D218005D215F /* Frameworks */,
+				77B5EA3E2AD3D218005D215F /* Resources */,
+				C0F0A19B2B3F952900BA0701 /* ShellScript */,
+				13D8DDF5C09C62116CFF60E7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = somprazApp;
+			productName = somprazApp;
+			productReference = 77B5EA402AD3D218005D215F /* somprazApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77B5EA552AD3D219005D215F /* somprazAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77B5EA6D2AD3D219005D215F /* Build configuration list for PBXNativeTarget "somprazAppTests" */;
+			buildPhases = (
+				8EC0A306E16AB34040E26A7B /* [CP] Check Pods Manifest.lock */,
+				77B5EA522AD3D219005D215F /* Sources */,
+				77B5EA532AD3D219005D215F /* Frameworks */,
+				77B5EA542AD3D219005D215F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77B5EA582AD3D219005D215F /* PBXTargetDependency */,
+			);
+			name = somprazAppTests;
+			productName = somprazAppTests;
+			productReference = 77B5EA562AD3D219005D215F /* somprazAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		77B5EA5F2AD3D219005D215F /* somprazAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77B5EA702AD3D219005D215F /* Build configuration list for PBXNativeTarget "somprazAppUITests" */;
+			buildPhases = (
+				C74F0C244380681199EFF929 /* [CP] Check Pods Manifest.lock */,
+				77B5EA5C2AD3D219005D215F /* Sources */,
+				77B5EA5D2AD3D219005D215F /* Frameworks */,
+				77B5EA5E2AD3D219005D215F /* Resources */,
+				68C3BD2B7C73F44235CCDE88 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77B5EA622AD3D219005D215F /* PBXTargetDependency */,
+			);
+			name = somprazAppUITests;
+			productName = somprazAppUITests;
+			productReference = 77B5EA602AD3D219005D215F /* somprazAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77B5EA382AD3D218005D215F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					77B5EA3F2AD3D218005D215F = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					77B5EA552AD3D219005D215F = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 77B5EA3F2AD3D218005D215F;
+					};
+					77B5EA5F2AD3D219005D215F = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 77B5EA3F2AD3D218005D215F;
+					};
+				};
+			};
+			buildConfigurationList = 77B5EA3B2AD3D218005D215F /* Build configuration list for PBXProject "somprazApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77B5EA372AD3D218005D215F;
+			productRefGroup = 77B5EA412AD3D218005D215F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77B5EA3F2AD3D218005D215F /* somprazApp */,
+				77B5EA552AD3D219005D215F /* somprazAppTests */,
+				77B5EA5F2AD3D219005D215F /* somprazAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77B5EA3E2AD3D218005D215F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77B5EA502AD3D219005D215F /* LaunchScreen.storyboard in Resources */,
+				7757BDB52B4338C000781A89 /* GoogleService-Info.plist in Resources */,
+				77B5EA4D2AD3D219005D215F /* Assets.xcassets in Resources */,
+				77B5EA4B2AD3D218005D215F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77B5EA542AD3D219005D215F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77B5EA5E2AD3D219005D215F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13D8DDF5C09C62116CFF60E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-somprazApp/Pods-somprazApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-somprazApp/Pods-somprazApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-somprazApp/Pods-somprazApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		326B3BEB7EDB47C083047D2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-somprazApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68C3BD2B7C73F44235CCDE88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-somprazApp-somprazAppUITests/Pods-somprazApp-somprazAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-somprazApp-somprazAppUITests/Pods-somprazApp-somprazAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-somprazApp-somprazAppUITests/Pods-somprazApp-somprazAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EC0A306E16AB34040E26A7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-somprazAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0F0A19B2B3F952900BA0701 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}",
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${PRODUCT_NAME}",
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist",
+				"$(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/GoogleService-Info.plist",
+				"$(TARGET_BUILD_DIR)/$(EXECUTABLE_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		C74F0C244380681199EFF929 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-somprazApp-somprazAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77B5EA3C2AD3D218005D215F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77BF4F642B319D1800E5C2F4 /* submitPWModel.swift in Sources */,
+				77A577112ADFC75300F04135 /* DoctorTVC.swift in Sources */,
+				77BF4F622B316DA600E5C2F4 /* PopUpVC.swift in Sources */,
+				77A5770F2ADFAC5800F04135 /* LeaderBoardVC.swift in Sources */,
+				77AE4AD32AD69F180057E316 /* QuesAnsVC.swift in Sources */,
+				77B5EA742AD3F135005D215F /* CustomTextField.swift in Sources */,
+				77294F382B1DE2AA00A3E0AE /* CategoryModel.swift in Sources */,
+				C0AE0FC92B2234FB00C2825A /* CategoriesWithQuestions.swift in Sources */,
+				779F431D2AD53645000310EB /* CategoryVC.swift in Sources */,
+				77B5EA482AD3D218005D215F /* LoginVC.swift in Sources */,
+				77BB49632ADC664800CCD73A /* QuizModel.swift in Sources */,
+				77D963392B1603E000FD54CF /* QuesOptionVC.swift in Sources */,
+				77B5EA762AD403BD005D215F /* HomeVC.swift in Sources */,
+				779F43192AD52A18000310EB /* SomprazVC.swift in Sources */,
+				77A577132ADFDE9800F04135 /* SelectDoctorModel.swift in Sources */,
+				7727A2E52AE66A74004C8153 /* AlertViewController.swift in Sources */,
+				77A5770D2ADEA5CB00F04135 /* DoctorModel.swift in Sources */,
+				C0AE0FC52B1F8FB200C2825A /* UserDefaults+Extension.swift in Sources */,
+				77BB49652ADC668B00CCD73A /* ServiceLayer.swift in Sources */,
+				77E5D3532B18A7300071CFF2 /* AddDocModel.swift in Sources */,
+				77B5EA442AD3D218005D215F /* AppDelegate.swift in Sources */,
+				77CE38B42AEBC6B2001DA89C /* LeaderBoardModel.swift in Sources */,
+				77E5D3512B187B6B0071CFF2 /* SelectMRModel.swift in Sources */,
+				C0AE0FC72B1FEEFD00C2825A /* NetworkStatus.swift in Sources */,
+				77E9A92A2B1A5579006AC954 /* SubmitDocMRIdModel.swift in Sources */,
+				77B5EA462AD3D218005D215F /* SceneDelegate.swift in Sources */,
+				77B0FC322B22F0A700C024CC /* ActiveCategoryVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77B5EA522AD3D219005D215F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77B5EA5B2AD3D219005D215F /* somprazAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77B5EA5C2AD3D219005D215F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77B5EA652AD3D219005D215F /* somprazAppUITests.swift in Sources */,
+				77B5EA672AD3D219005D215F /* somprazAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77B5EA582AD3D219005D215F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77B5EA3F2AD3D218005D215F /* somprazApp */;
+			targetProxy = 77B5EA572AD3D219005D215F /* PBXContainerItemProxy */;
+		};
+		77B5EA622AD3D219005D215F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77B5EA3F2AD3D218005D215F /* somprazApp */;
+			targetProxy = 77B5EA612AD3D219005D215F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77B5EA492AD3D218005D215F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77B5EA4A2AD3D218005D215F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77B5EA4E2AD3D219005D215F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77B5EA4F2AD3D219005D215F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77B5EA682AD3D219005D215F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77B5EA692AD3D219005D215F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77B5EA6B2AD3D219005D215F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 952B41D320ABD59DA0071E9A /* Pods-somprazApp.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					arm64,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 4LJU39NG9P;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = somprazApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digilateral.somprazApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77B5EA6C2AD3D219005D215F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7C09902A57EB8C1D1368235 /* Pods-somprazApp.release.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					arm64,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 4LJU39NG9P;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = somprazApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digilateral.somprazApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		77B5EA6E2AD3D219005D215F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82FFFF30FFB829B7D7292E73 /* Pods-somprazAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Digilateral.somprazAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/somprazApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/somprazApp";
+			};
+			name = Debug;
+		};
+		77B5EA6F2AD3D219005D215F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 239E0A7888ABE9FFB1BE573E /* Pods-somprazAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Digilateral.somprazAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/somprazApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/somprazApp";
+			};
+			name = Release;
+		};
+		77B5EA712AD3D219005D215F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81DAC3F6EE19B5E99D3E8827 /* Pods-somprazApp-somprazAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Digilateral.somprazAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = somprazApp;
+			};
+			name = Debug;
+		};
+		77B5EA722AD3D219005D215F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B611785D6B3B5F0391B1AE30 /* Pods-somprazApp-somprazAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Digilateral.somprazAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = somprazApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77B5EA3B2AD3D218005D215F /* Build configuration list for PBXProject "somprazApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77B5EA682AD3D219005D215F /* Debug */,
+				77B5EA692AD3D219005D215F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77B5EA6A2AD3D219005D215F /* Build configuration list for PBXNativeTarget "somprazApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77B5EA6B2AD3D219005D215F /* Debug */,
+				77B5EA6C2AD3D219005D215F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77B5EA6D2AD3D219005D215F /* Build configuration list for PBXNativeTarget "somprazAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77B5EA6E2AD3D219005D215F /* Debug */,
+				77B5EA6F2AD3D219005D215F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77B5EA702AD3D219005D215F /* Build configuration list for PBXNativeTarget "somprazAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77B5EA712AD3D219005D215F /* Debug */,
+				77B5EA722AD3D219005D215F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77B5EA382AD3D218005D215F /* Project object */;
+}

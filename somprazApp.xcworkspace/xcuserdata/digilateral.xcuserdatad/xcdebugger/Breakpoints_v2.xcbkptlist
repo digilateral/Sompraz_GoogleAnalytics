@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "06BC21B8-4441-45B1-ABC7-38130441F87E"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            uuid = "7E7FAAFB-50ED-40E7-92DD-823DE1C20FBD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            breakpointStackSelectionBehavior = "1"
+            scope = "1"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "97F7010D-8D32-4BD5-9DEC-7350DB2FB72C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "somprazApp/HomeVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "864"
+            endingLineNumber = "864"
+            landmarkName = "syncScore(category:userID:score:completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "97F7010D-8D32-4BD5-9DEC-7350DB2FB72C - ce99bf4d7075009"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in __C.UIViewController.syncScore(category: Swift.String, userID: Swift.String, score: Swift.Int, completionHandler: (Swift.Optional&lt;Swift.Bool&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "somprazApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/digilateral/Desktop/SomprazAppCrashSync1:1Copy/somprazApp/HomeVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "864"
+                  endingLineNumber = "864"
+                  offsetFromSymbolStart = "360">
+               </Location>
+               <Location
+                  uuid = "97F7010D-8D32-4BD5-9DEC-7350DB2FB72C - ce99bf4d7075009"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in __C.UIViewController.syncScore(category: Swift.String, userID: Swift.String, score: Swift.Int, completionHandler: (Swift.Optional&lt;Swift.Bool&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "somprazApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/digilateral/Desktop/SomprazAppCrashSync1:1Copy/somprazApp/HomeVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "864"
+                  endingLineNumber = "864"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  uuid = "97F7010D-8D32-4BD5-9DEC-7350DB2FB72C - ce99bf4d7075009"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in __C.UIViewController.syncScore(category: Swift.String, userID: Swift.String, score: Swift.Int, completionHandler: (Swift.Optional&lt;Swift.Bool&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "somprazApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/digilateral/Desktop/SomprazAppCrashSync1:1Copy/somprazApp/HomeVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "864"
+                  endingLineNumber = "864"
+                  offsetFromSymbolStart = "304">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "87A74B9A-FF08-494B-9F6E-59E1A2EE59A2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "somprazApp/HomeVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "871"
+            endingLineNumber = "871"
+            landmarkName = "syncScore(category:userID:score:completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "87A74B9A-FF08-494B-9F6E-59E1A2EE59A2 - ce99bf4d707532e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in __C.UIViewController.syncScore(category: Swift.String, userID: Swift.String, score: Swift.Int, completionHandler: (Swift.Optional&lt;Swift.Bool&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "somprazApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/digilateral/Desktop/SomprazAppCrashSync1:1Copy/somprazApp/HomeVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "871"
+                  endingLineNumber = "871"
+                  offsetFromSymbolStart = "916">
+               </Location>
+               <Location
+                  uuid = "87A74B9A-FF08-494B-9F6E-59E1A2EE59A2 - ce99bf4d707532e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in __C.UIViewController.syncScore(category: Swift.String, userID: Swift.String, score: Swift.Int, completionHandler: (Swift.Optional&lt;Swift.Bool&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "somprazApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/digilateral/Desktop/SomprazAppCrashSync1:1Copy/somprazApp/HomeVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "871"
+                  endingLineNumber = "871"
+                  offsetFromSymbolStart = "796">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E4FDED5C-3271-4B96-8C97-B39F0CA4F794"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "somprazApp/HomeVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "878"
+            endingLineNumber = "878"
+            landmarkName = "syncScore(category:userID:score:completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E4FDED5C-3271-4B96-8C97-B39F0CA4F794 - ce99bf4d7075247"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in __C.UIViewController.syncScore(category: Swift.String, userID: Swift.String, score: Swift.Int, completionHandler: (Swift.Optional&lt;Swift.Bool&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "somprazApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/digilateral/Desktop/SomprazAppCrashSync1:1Copy/somprazApp/HomeVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "878"
+                  endingLineNumber = "878"
+                  offsetFromSymbolStart = "1384">
+               </Location>
+               <Location
+                  uuid = "E4FDED5C-3271-4B96-8C97-B39F0CA4F794 - ce99bf4d7075247"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in __C.UIViewController.syncScore(category: Swift.String, userID: Swift.String, score: Swift.Int, completionHandler: (Swift.Optional&lt;Swift.Bool&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "somprazApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/digilateral/Desktop/SomprazAppCrashSync1:1Copy/somprazApp/HomeVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "878"
+                  endingLineNumber = "878"
+                  offsetFromSymbolStart = "984">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FFC69635-3A50-46F4-962F-453CA76AC844"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "somprazApp/HomeVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "879"
+            endingLineNumber = "879"
+            landmarkName = "syncScore(category:userID:score:completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FFC69635-3A50-46F4-962F-453CA76AC844 - ce99bf4d706adbb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in __C.UIViewController.syncScore(category: Swift.String, userID: Swift.String, score: Swift.Int, completionHandler: (Swift.Optional&lt;Swift.Bool&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "somprazApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/digilateral/Desktop/SomprazAppCrashSync1:1Copy/somprazApp/HomeVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "882"
+                  endingLineNumber = "882"
+                  offsetFromSymbolStart = "1824">
+               </Location>
+               <Location
+                  uuid = "FFC69635-3A50-46F4-962F-453CA76AC844 - ce99bf4d7075226"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in __C.UIViewController.syncScore(category: Swift.String, userID: Swift.String, score: Swift.Int, completionHandler: (Swift.Optional&lt;Swift.Bool&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "somprazApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/digilateral/Desktop/SomprazAppCrashSync1:1Copy/somprazApp/HomeVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "879"
+                  endingLineNumber = "879"
+                  offsetFromSymbolStart = "1384">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DCE305E2-DA3C-4F26-B13C-3A6CA6FE2DA9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "somprazApp/HomeVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "853"
+            endingLineNumber = "853"
+            landmarkName = "syncScore(category:userID:score:completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DCE305E2-DA3C-4F26-B13C-3A6CA6FE2DA9 - 619208dca22be7fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UIViewController.syncScore(category: Swift.String, userID: Swift.String, score: Swift.Int, completionHandler: (Swift.Optional&lt;Swift.Bool&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "somprazApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/digilateral/Desktop/SomprazAppCrashSync1:1Copy/somprazApp/HomeVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "854"
+                  endingLineNumber = "854"
+                  offsetFromSymbolStart = "1444">
+               </Location>
+               <Location
+                  uuid = "DCE305E2-DA3C-4F26-B13C-3A6CA6FE2DA9 - 619208dca22be7d9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UIViewController.syncScore(category: Swift.String, userID: Swift.String, score: Swift.Int, completionHandler: (Swift.Optional&lt;Swift.Bool&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "somprazApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/digilateral/Desktop/SomprazAppCrashSync1:1Copy/somprazApp/HomeVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "853"
+                  endingLineNumber = "853"
+                  offsetFromSymbolStart = "1016">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1EE1370B-FB29-4252-9231-F4412DCBA0FA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "somprazApp/HomeVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "845"
+            endingLineNumber = "845"
+            landmarkName = "syncScore(category:userID:score:completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1EE1370B-FB29-4252-9231-F4412DCBA0FA - 619208dca22be021"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UIViewController.syncScore(category: Swift.String, userID: Swift.String, score: Swift.Int, completionHandler: (Swift.Optional&lt;Swift.Bool&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "somprazApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/digilateral/Desktop/SomprazAppCrashSync1:1Copy/somprazApp/HomeVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "845"
+                  endingLineNumber = "845"
+                  offsetFromSymbolStart = "820">
+               </Location>
+               <Location
+                  uuid = "1EE1370B-FB29-4252-9231-F4412DCBA0FA - 619208dca22be021"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__C.UIViewController.syncScore(category: Swift.String, userID: Swift.String, score: Swift.Int, completionHandler: (Swift.Optional&lt;Swift.Bool&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "somprazApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/digilateral/Desktop/SomprazAppCrashSync1:1Copy/somprazApp/HomeVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "845"
+                  endingLineNumber = "845"
+                  offsetFromSymbolStart = "612">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
